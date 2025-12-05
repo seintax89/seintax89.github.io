@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Primera Web</title>
+    <style>
+        table,th,td {
+        border: 1px solid black
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>hola beats</td>
+            <td>gratis</td>
+        </tr>
+        <tr>
+            <td>Chancha</td>
+            <td>25.59$</td>
+        </tr>
+        <tr>
+            <td>Chancha Feliz</td>
+            <td>50.00$</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: 75.59$</td>
+        </tfoot>
+    </table>
+    <ul>
+        <!--Listas No Ordenadas-->
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+    </ul>
+
+    <ol>
+        <!--Lista Ordenada-->
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-alpha;">sub elemento1</li>
+                <li style="list-style-type: lower-alpha;">sub elemento2</li>
+                <li style="list-style-type: lower-alpha;">sub elemento3</li>
+            </ol>
+        </li>
+    </ol>
+
+    <h1>Mi Primer Heading</h1>
+    <h2>Mi Segundo Heading</h2>
+    <h3>Mi Tercer Heading</h3>
+    <h3>Mi Cuarto Heading</h3>
+    <h5>Mi Quinto Heading</h5>
+    <h6>Mi Sextooo Heading</h6> <!--Solo hay 6 Headings-->
+    <p>Chancha esta muy feliz.
+        lalala
+    </p>
+    <p>Chancha esta muy triste</p>
+    <hr>    <!--Separar Headings y Textos-->
+    <h2>Chancha Felipe</h2>
+    <p>Texto un poco mas</p>
+    <p>Este texto es <span style="color:blue">mucho mas largo</span>
+        y es para mostrar<br><!--hacer saltos de linea-->
+        la etiqueta de span! <!--Span es para identificar etiquetas dentro de otras y referenciarlas-->
+    </p>
+    <a href ="https://www.google.com.co">Ir a google</a><br><!--Sirve para poner links-->
+    <a target="_blank" href="https://www.google.com.co">Ir a google distinta pestaña</a>
+    <img src="img/telete2.jpeg" height="400"/>
+    <form action="/formulario" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input value="chanchito" type="text" id="nombre" name ="nombre" placeholder="Nombre" />
+        <br>
+        <label for="apellido">Apellido:</label>
+        <input value="feliz" type = "text" id="apellido" placeholder="apellido" /
+        <br>
+        <label for="comentario">Comentario:</label>
+        <textarea rows="20" cols="40" id="comentario" placeholder="ingrese comentario" name="comentario">Este es un valor por defecto</textarea>
+        <button type="button" >Tipo Boton</button><!--Button,Reset,Submit-->
+        <button type="reset" >Tipo Reset</button>
+        <button type="submit" >Tipo Submit</button>
+    </form>
+        <!--hay diversos types
+        por ejemplo submit,email,password,radio para boton de seleccion
+        checkbox casillas de seleccion
+        file para subir un archivo-->
+    
+    
+</body>
+</html>
